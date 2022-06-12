@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.537e9f57.css",
-    "main.js": "/myPortfolio/static/js/main.193fc52a.js",
+    "main.css": "/myPortfolio/static/css/main.38bb9bba.css",
+    "main.js": "/myPortfolio/static/js/main.cd22ee1e.js",
     "static/media/bg.jpg": "/myPortfolio/static/media/bg.bb45f9d7080827a90059.jpg",
     "static/media/myPicture.jpeg": "/myPortfolio/static/media/myPicture.afaf3ee3f169202ca72e.jpeg",
     "static/media/img2.png": "/myPortfolio/static/media/img2.a0e4de108243ea73b3a1.png",
+    "static/media/xo.JPG": "/myPortfolio/static/media/xo.add85a23f3ead2664005.JPG",
+    "static/media/calculator.JPG": "/myPortfolio/static/media/calculator.e59769cd2e0a1d22d14b.JPG",
     "static/media/weather.JPG": "/myPortfolio/static/media/weather.c0fd1e73a77c147b7b0e.JPG",
+    "static/media/portolio.JPG": "/myPortfolio/static/media/portolio.fb74e632d76104531398.JPG",
+    "static/media/todo.JPG": "/myPortfolio/static/media/todo.6ece873382142e711c31.JPG",
+    "static/media/ReactJs.png": "/myPortfolio/static/media/ReactJs.e90a6f7c0d83b2748879.png",
+    "static/media/restaurant.JPG": "/myPortfolio/static/media/restaurant.02be93f9d799c7c3cdee.JPG",
     "static/media/img.jpg": "/myPortfolio/static/media/img.58b88449f326f2292453.jpg",
+    "static/media/adobepack.jpg": "/myPortfolio/static/media/adobepack.b70cff5827a59039987c.jpg",
     "static/media/img4.jpg": "/myPortfolio/static/media/img4.37b6c2433cb8f17b4602.jpg",
     "static/media/htmlcssjs.webp": "/myPortfolio/static/media/htmlcssjs.930f575146be24f91dba.webp",
     "static/media/placeholder.png": "/myPortfolio/static/media/placeholder.331482282b17d4ab1127.png",
+    "static/media/sass.png": "/myPortfolio/static/media/sass.6747d5c68a381e29fc69.png",
+    "static/media/tailwind.webp": "/myPortfolio/static/media/tailwind.6233f7499f5dba8fa451.webp",
     "static/media/send.png": "/myPortfolio/static/media/send.db5c811b41b848208455.png",
     "static/media/phone.png": "/myPortfolio/static/media/phone.d8049333507aabb8f60f.png",
     "index.html": "/myPortfolio/index.html",
-    "main.537e9f57.css.map": "/myPortfolio/static/css/main.537e9f57.css.map",
-    "main.193fc52a.js.map": "/myPortfolio/static/js/main.193fc52a.js.map"
+    "main.38bb9bba.css.map": "/myPortfolio/static/css/main.38bb9bba.css.map",
+    "main.cd22ee1e.js.map": "/myPortfolio/static/js/main.cd22ee1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.537e9f57.css",
-    "static/js/main.193fc52a.js"
+    "static/css/main.38bb9bba.css",
+    "static/js/main.cd22ee1e.js"
   ]
 }
