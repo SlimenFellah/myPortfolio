@@ -1,38 +1,233 @@
-.App {
+.mapouter{position:relative;text-align:right;height:500px;width:600px; max-width: 100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px; max-width: 100%;}
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.underlined{
+  position: relative;
+  margin-bottom: 1rem;
+  width: max-content;
+}
+.navList a:visited,.navList a:active,.navList a{
+  color: wheat;
+  text-decoration: none
+}
+a, button{
+  cursor: pointer;
+}
+.underlined::after{
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: '';
+  z-index: 5;
+  width: 100%;
+  height: 5px;
+  background-color: blueviolet;
+}
+.mainContainer{
+  height: 100vh;
+  color: wheat;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mainContainer a {
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navBar{
+  padding: .5rem ;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.col1{
+  grid-column-start: 2;
+}
+.col2{
+  grid-column-start: 3;
+}
+.mainText{
+  padding: 10rem 1rem;
+}
+.navList{
+  display: none;
+  padding: 1rem;
+  color: black;
+  background-color: wheat;
+  flex-direction: column;
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  height:60vh;
+  font-size: 1.5rem;
+}
+.exitMenuImage, .menuImage{
+  filter: invert();
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.briefContainer{
+  background-image: url('./assets/img.jpg');
+  background-size: cover;
+}
+.cart{
+  background-color: rgba(240, 255, 255, 0.726);
+  padding: 5% 10% 15% 10% ;
+  border-radius: 5%;
+  box-shadow : 7px 7px rgba(0, 0, 0, 0.158);
+}
+.myImage{
+  width: 100%;
+  border: solid gray;
+  border-radius: 10%;
+}
+.btn{
+  margin-top: .5rem;
+  margin-right: .5rem;
+  padding: .5rem 1rem;
+  border: solid gray;
+  border-radius: 10%;
+}
+.colm1{
+  margin-bottom: .5rem;
+}
+.skillContainer{
+  background-image: url(./assets/img2.png);
+  background-size: cover;
+}
+.skillImage img{
+  width: 50%;
+  border-radius: 50%;
+  border: solid gray;
+}
+.portfolioContainer{
+  background-image: url(./assets//img3.jpg);
+  background-size: cover;
+}
+.projectImage img{
+  width: 100%;
+  border-radius: 10%;
+  border: solid gray;
+}
+.projetContainer {
+  margin-bottom: .5rem;
+}
+.contactContainer{
+  background-image: url(./assets/img4.jpg);
+  background-size: cover;
+}
+ 
+.contactContainer input, .contactContainer textarea {
+  display: block;
+}
+.contactContainer > h3{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.subCart{
+  height: 100%;
+  margin: .5rem 0;
+  background-color: white;
+  padding: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.subCart img{
+  width: 100%;
+}
+.subCart button{
+  margin-top: .5rem;
+  padding: 1rem 2rem;
+  background-color: aqua;
+  border: none;
+  font-weight: bold;
+  border-radius: 25% ;
+  border: solid gray;
+}
+.cordon{
+  margin: .5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.cordon img{
+  width: 25px;
+}
+.grayColor{
+  color: gray;
+}
+@media(min-width : 700px){
+  .sendMsg{
+    padding: 13rem 0;
+    font-size: 150%;
   }
-  to {
-    transform: rotate(360deg);
+  .mapouter, #mapouter{
+    width: 100%;
   }
+  .gmap_canvas, #gmap_canvas{
+    width: 100%;
+  }
+  .mainText h1{
+    font-size: 3rem;
+  }
+  .mainText h2{
+    font-size: 2rem;
+  }
+  .navBar{
+    padding: .5rem ;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .menuImage, .exitMenuImage{
+    display: none;
+  }
+  .navList{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: min-content;
+    background: none;
+    color: wheat;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flex > div{
+    margin: 0 .5rem;
+    width : 100%;
+    height: 100%;
+  }
+  .flex .colm1{
+    width: 100%;
+  }
+  .flex .colm2{
+    font-size: 1.2rem;
+  }
+  .grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+
+}
+@media(min-width : 900px){
+  .grid{
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+}
+@media(min-width : 1100px){
+  .grid{
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+.container{
+  padding: 1rem ;
 }
